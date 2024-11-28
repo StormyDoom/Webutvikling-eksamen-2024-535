@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    min-height: 150vh;
+    line-height: 2;
+}
+
+#search{
+    width: 3rem;
+    height: 2.7rem;
+    margin: 0rem;
+    border-color: #000000;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:#333;
+}
+
+#banner{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c1bdbd;
+    justify-content: right;
+    padding: 5%;
+    text-align: right;
+}
+
+.button-banner{
+    display: inline-block;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    justify-content: right;
+    text-align: right;
+}
+
+.button-products{
+    padding: 10px;
+    margin: 0.2rem;
+}
+
+.products{
+   padding: 20px;
+   border: 1px dotted #000000;
+   border-radius: 4px;
+   width: 70%;
+   box-shadow: 13px 10px 20px 0px #9f9a9a;
+   margin: 1rem;
+   justify-content: center;
+   text-align: center;
+}
+
+.button-categories{
+    padding: 8rem;
+    text-align: center;
+    margin: 0.5rem;
+    border-radius: 4px;
+}
+
+
+#reviews{
+    align-items: center;
+}
+
+.reviews-article{
+    border: 1px solid #595656;
+    padding: 5px;
+    margin: 10px;
+}
+
+#reviews img{
+    margin-right: 15px;
+    padding: 1rem;
+    min-width: 120px;
+    max-width: 150px;
+    min-height: 100px;
+    max-height: 130px;
+    padding-left: 0;
+}
+
+.bold{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+img{
+    max-width: 70%;
+    min-width: none;
+}
+
+.product-image-1{
+    max-width: 100%;
+    min-width: none;
+}
+
+.products-name{
+    line-height: 1.2;
+}
+
+.products-img{
+    width: 100%;
+}
+
+.products-cart{
+    padding: 1rem;
+    line-height: 0.5;
+    width: 100%;
+}
+
+.delivery-information{
+    display: inline-block;
+    width: 100px;
+    min-height: 100px;
+    max-height: 200px;
+    padding: 5px;
+}
+
+input{
+    width: 17rem;
+    height: 2.7rem;
+    margin: 0.5rem;
+    border-color: #000000;
+}
+
+.input-info{
+    width: 370%;
+    height: 2.7rem;
+    margin: 0.5rem;
+    border-color: #000000;
+}
+
+.submit-button{
+    background-color: #5d5d5d;
+    width: 60%;
+    color: aliceblue;
+}
+
+.cancel{
+    text-decoration: underline;
+    color: rgb(41, 20, 230);
+    margin: 0.5rem;
+    font-size: 20px;
+}
+
+.radio-button{
+    border: 0px;
+    width: 90px;
+    height: 1.2em;
+    margin-left: -7px;
+}
+
+.delivery-options{
+    margin: 5px;
+    padding-left: 0;
+}
+
+.label-delivery{
+    margin-left: 0px;
+    padding-left: 0;
+}
+
+.payment{
+    width: 70%;
+    margin: 0rem;
+    text-align: left;
+    padding: 5px;
+}
+
+.input-payment{
+    width: 140%;
+    height: 2.7rem;
+    margin: 0rem;
+    border-color: #000000;
+}
+
+.paragraph-pay{
+    line-height: 0.5;
+}
+
+.submit-payment{
+    background-color: #5d5d5d;
+    width: 50%;
+    margin-left: 0px;
+    color: aliceblue;
+}
+
+#paragraph-confirmation{
+    word-wrap: break-word;
+    line-height: 1.5;
+    font-size: small;
+}
+
+.checkbox{
+    width: 15px;
+    height: 2em;
+    margin-left: 0px;
+    border-radius: 10px;
+}

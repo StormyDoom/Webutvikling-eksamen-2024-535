@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="website with clothes">
+    <link href="Ikoner/css/fontawesome.css" rel="stylesheet" />
+    <link href="Ikoner/css/brands.css" rel="stylesheet" />
+    <link href="Ikoner/css/solid.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>Kasse / handlekurv</title>
+</head>
+<body>
+    <header id="main-header">
+        <nav>
+            <form class="searchbar" method="post">
+                <input type="text" placeholder="Søk her" name="search">
+                <button type="submit" value="Søk" id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="#popular-products">Produkter</a></li>
+                <li><a href="index.html"><h1>Logo</h1></a></li>
+                <li><a href="#popular-categories">Kategorier</a></li>
+                <li><a href="#contact">Kontakt oss</a></li>
+                <li><i class="fa-regular fa-user"></i></li>
+                <li><i class="fa-regular fa-heart"></i></li>
+                <li><a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <a href="checkout.html"><h2>Kasse</h2></a>
+        <section>
+            <h2>1. SHOPPINGBAGEN DIN</h2>
+            <article class="products-cart">
+                <a href="products.html">
+                <img src="img/kjole.jpg" alt="Dame med kjole">
+                <h3>Produktnavn</h3>
+                <p>Kr 1999</p>
+                <p>Farge: hvit</p>
+                </a>
+            </article>
+            
+            <article class="products-cart">
+                <a href="products.html">
+                <img src="img/kjole.jpg" alt="Dame med kjole">
+                <h3>Produktnavn</h3>
+                <p>Kr 1999</p>
+                <p>Farge: hvit</p>
+                </a>
+            </article>
+            
+            <article class="products-cart">
+                <a href="products.html">
+                <img src="img/kjole.jpg" alt="Dame med kjole">
+                <h3>Produktnavn</h3>
+                <p>Kr 1999</p>
+                <p>Farge: hvit</p>
+                </a>
+            </article>
+        </section>
+        <section>
+            <h2>2. DINE OPPLYSNINGER</h2>
+            <h3>Leveringsadresse</h3>
+            <form method="post" action="#" class="delivery-information">
+                <input type="text" name="fornavn" placeholder="Fornavn*" id="fornavn" maxlength="45" required class="input-info"> 
+                <input type="text" name="etternavn" placeholder="Etternavn*" maxlength="45" required class="input-info">
+                <input type="text" name="gateadresse" placeholder="Gateadresse*" required class="input-info">
+                <input type="number" name="postnummer" placeholder="Postnummer*" required class="input-info">
+                <input type="text" name="poststed" placeholder="Poststed*" required class="input-info">
+                <input type="submit" value="Lagre" class="submit-button">
+                <p><a href="#main-header" class="cancel">Avbryt</a></p>
+            </form>
+        </section>
+        <section class="delivery-options">
+            <h2>3. LEVERING</h2>
+            <h3>Leveringsvalg</h3>
+            <form method="post" action="#">
+                <input type="radio" name="express-hjemmelevering" value="express" id="express-hjemmelevering" class="radio-button">
+                <label for="express-hjemmelevering" class="label-delivery">Express Hjemmelevering</label>
+                
+                <input type="radio" name="express-pakke-til-utleveringssted" value="express package" id="express-pakke-til-utleveringssted" class="radio-button">
+                <label for="express-pakke-til-utleveringssted" class="label-delivery">Express Pakke til utleveringssted</label>
+                
+                <input type="radio" name="standard-hjemmelevering" value="standard" id="standard-hjemmelevering" class="radio-button">
+                <label for="standard-hjemmelevering" class="label-delivery">Standard Hjemmelevering</label>
+            </form>
+        </section>
+        <section>
+            <h2>4. BETALING</h2>
+            <h3>Betal med kort</h3>
+        <form method="post" action="#" class="payment">
+                <label for="kortnummer">Kortnummer</label>
+                <input type="number" name="kortnummer" placeholder="342342****4435" id="kortnummer" required class="input-payment">
+                
+                <label for="utløpsdato">Utløpsdato</label>
+                <input type="date" name="utløpsdato" id="utløpsdato" required class="input-payment">
+                
+                <label for="cvc/cvv">CVC/CVV</label>
+                <input type="number" name="cvc/cvv" placeholder="CVC/CVV" id="cvc/cvv" required class="input-payment">
+                
+                <p class="paragraph-pay">Å betale inkl. mva</p>
+                <p class="paragraph-pay">1 199 kr</p>
+                
+                <input type="submit" value="Fullfør kjøp" class="submit-payment">
+                <p id="paragraph-confirmation">Du bekrefter herved at opplysningene og dokumentene du har oppgitt er korrekte og fullstendige. Leverandøren forbeholder seg retten til å heve eller avslutte avtaleforholdet dersom det foreligger uriktige eller ufullstendige opplysninger</p>
+                <input type="checkbox" class="checkbox" id="vilkår" required><label for="vilkår">Ja, jeg godtar vilkårene</label><br>
+                <input type="checkbox" class="checkbox" id="nyhetsbrev"><label for="nyhetsbrev">Ja takk! Send nyhetsbrev til meg</label><br>
+        </form>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <section>
+            <a href="index.html"><h2>Logo</h2></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </section>
+        <section>
+            <h3>KONTAKT</h3>
+            <p><i class="fa-solid fa-location-dot"></i> Adresse: B R A Veien 4, 1757 Halden</p>
+            <p><i class="fa-solid fa-phone"></i> Telefon: 69 60 80 00</p>
+            <p><i class="fa-solid fa-envelope"></i> E-post: halden@hiof.no</p>
+            <p><i class="fa-solid fa-clock"></i> Åpningstider: Stenger 15:00</p>
+        </section>
+        <section>
+            <h3>SNARVEIER</h3>
+            <nav>
+                <a href="#popular-products"><p>Produkter</p></a>
+                <a href="#popular-categories"><p>Kategorier</p></a>
+                <a href="#contact" id="contact"><p>Kontakt oss</p></a>
+                <a target="_blank" href="file:///C:/Users/jespe/Downloads/Tilgjenlighetserklearing.pdf">Tilgjenlighetserklæring</a>
+            </nav>
+        </section>
+        <section>
+            <h3>SOSIALE MEDIER</h3>
+            <nav>
+                <ul>
+                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/?locale=nb_NO"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://no.pinterest.com/"><i class="fa-brands fa-pinterest"></i></a></li>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+</body>
+</html>
